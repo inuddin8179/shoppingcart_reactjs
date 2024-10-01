@@ -1,0 +1,41 @@
+section{
+    width: 80%;
+    margin:auto;
+   
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    background-image:linear-gradient(palegoldenrod palegoldenrod);
+}
+.shop{
+    background-color:palegoldenrod;
+}
+.cards{
+    width: 200px;
+    
+    padding:20px;
+}
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.3);
+    cursor:pointer
+}
+.images img{
+    width: 180px;
+    height: 200px;
+}
+.details button{
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(172, 130, 54);
+    border-radius: 5px;
+
+}
+.details button:hover{
+    background-color: black;
+    cursor: pointer;
+   
+}
+
+
